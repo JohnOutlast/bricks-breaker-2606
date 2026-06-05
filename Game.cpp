@@ -78,7 +78,7 @@ void Game::Render() const
 	ball.Draw();
 
 	// TODO #3 - Update render to render all bricks
-	for (const auto& brick : bricks)                   //Some prior professors didn't want us using auto. Are we allowed to here? -Wiley
+	for (const auto& brick : bricks)                   //Some prior professors didn't want us using auto. Are we allowed to here?   -WILEY
 	{
 		brick.Draw();
 	}
